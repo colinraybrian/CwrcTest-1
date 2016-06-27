@@ -61,6 +61,7 @@
         <dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:creator rdf:resource="http://rdf.muninn-project.org/ww1/2011/11/11/Person/Warren"/>
         <owl:priorVersion rdf:resource="http://www.cwrc.ca/ontologies/OrlandoOntology"/>
+        <dc:creator rdf:resource="&cwrc;ColinFaulkner"/>
         <dc:creator rdf:resource="&cwrc;JohnSimpson"/>
         <loc:pdr rdf:resource="&cwrc;SusanBrown"/>
         <dc:publisher rdf:resource="&cwrc;cwrc"/>
@@ -130,6 +131,18 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/familyName -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;familyName"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;firstName"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/logo -->
 
     <owl:AnnotationProperty rdf:about="&foaf;logo"/>
@@ -167,6 +180,17 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.cwrc.ca/ontologies/OrlandoOntology#ColinFaulkner -->
+
+    <owl:NamedIndividual rdf:about="&cwrc;ColinFaulkner">
+        <rdf:type rdf:resource="&foaf;Person"/>
+        <foaf:name>ColinFaulkner</foaf:name>
+        <foaf:firstName>Colin</foaf:firstName>
+        <foaf:lastName>Faulkner</foaf:lastName>
+    </owl:NamedIndividual>
     
 
 
